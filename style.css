@@ -110,6 +110,9 @@ footer {
 .boxVideo {
   padding-top: 10px
 }
+.imgResize1 {
+  padding-left: 10px;
+}
 
 @media screen and (max-width: 600px) {
   body {
@@ -178,6 +181,10 @@ footer {
   }
   .img1:hover {
     opacity: 1.0;
+  }
+  .imgResize {
+    padding-top: 15px;
+    padding-left: 0px;
   }
   .center {
     align-items: center;
