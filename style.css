@@ -75,7 +75,7 @@ iframe {
 }
 
 .row2 {
-  grid-row: 2 / span 3;
+  grid-row: 2 / span;
   grid-column: 1 / span 2;
   padding: 20px;
 }
@@ -96,12 +96,22 @@ iframe {
   align-items: flex-end;
 }
 
+footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: #654321;
+  color: #65432e;
+  text-align: center;
+  padding-top: 10px;
+}
+
 @media screen and (max-width: 600px) {
   body {
     font-size: 12px;
     width: 100%;
   }
-
   h1 {
     background-color: black;
     color: white;
@@ -175,3 +185,5 @@ iframe {
     margin-top: 5px;
   }
 }
+
+*/
