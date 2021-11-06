@@ -65,19 +65,19 @@ iframe {
 
 .boxBrown {
   background-color: burlywood;
-  padding-bottom: 20px;
-  border-bottom: 10px solid black;
+  padding-bottom: 0px;
+  border-bottom: 0px solid black;
 }
 
 .row1 {
   grid-row: 1 / span 3;
-  padding-bottom: 20px;
+  padding-bottom: 10px;
 }
 
 .row2 {
   grid-row: 2 / span;
   grid-column: 1 / span 2;
-  padding: 20px;
+  padding: 10px;
 }
 
 .row3 {
