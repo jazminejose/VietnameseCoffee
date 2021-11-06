@@ -77,18 +77,30 @@ iframe {
 .row2 {
   grid-row: 2 / span;
   grid-column: 1 / span 2;
-  padding: 10px;
+  padding-left: 10px;
+  padding-right: 10px;
+  padding-top: 10px;
+  margin-top: 0px;
+  margin-bottom: 10px;
 }
 
 .row3 {
   grid-row: 8 / span 3;
   grid-column: 2 / span 3;
-  padding: 20px;
+  padding: 10px;
 }
 
 .row4 {
   grid-row: 16 / span 3;
   grid-column: 2/ span 3;
+}
+
+.row5 {
+  grid-row: 32 / span 3;
+  grid-column: 1 / span 3;
+  margin-top: 10px;
+  padding: 10px;
+
 }
 
 .align {
@@ -110,8 +122,13 @@ footer {
 .boxVideo {
   padding-top: 10px
 }
+
 .imgResize1 {
   padding-left: 10px;
+}
+
+.paddingVideo2 {
+  margin-left: 15px;
 }
 
 @media screen and (max-width: 600px) {
@@ -194,6 +211,12 @@ footer {
     height: 200px;
     margin-left: 0px;
     margin-top: 5px;
+  }
+  .paddingVideoDim {
+    margin-left: 0px;
+    margin-top: 15px;
+    width: 300px;
+    height: 200px;
   }
 }
 
