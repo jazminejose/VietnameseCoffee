@@ -65,7 +65,7 @@ iframe {
 
 .boxBrown {
   background-color: burlywood;
-  padding-bottom: 50px;
+  padding-bottom: 20px;
   border-bottom: 10px solid black;
 }
 
@@ -107,6 +107,10 @@ footer {
   padding-top: 10px;
 }
 
+.boxVideo {
+  padding-top: 20px
+}
+
 @media screen and (max-width: 600px) {
   body {
     font-size: 12px;
@@ -140,7 +144,7 @@ footer {
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  padding-right: 80px;
+  padding-right: 90px;
 }
 
 .imageRow {
