@@ -100,7 +100,6 @@ iframe {
   grid-column: 1 / span 3;
   margin-top: 10px;
   padding: 10px;
-
 }
 
 .align {
@@ -206,18 +205,18 @@ footer {
   .center {
     align-items: center;
   }
-  .iframeDim {
-    width: 300px;
-    height: 200px;
-    margin-left: 0px;
-    margin-top: 5px;
-  }
-  .paddingVideoDim {
-    margin-left: 0px;
-    margin-top: 15px;
-    width: 300px;
-    height: 200px;
+  @media screen and (max-width: 600px) {
+    .iframeDim {
+      width: 300px;
+      height: 200px;
+      margin-left: 0px;
+      margin-top: 5px;
+    }
+    .paddingVideoDim {
+      margin-left: 0px;
+      margin-top: 15px;
+      width: 300px;
+      height: 200px;
+    }
   }
 }
-
-*/
